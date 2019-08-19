@@ -1,0 +1,27 @@
+div{
+	  height: 20px;
+	  width: 20px;
+	  position: relative;
+	  transition:1s;
+	  background-color: red;
+	  left: 0;
+}
+main:hover div{
+	left: 300px;
+	background-color: blue;
+}
+.else{
+	transition-timing-function: else;
+} 
+.linear{
+	transition-timing-function: linear; 
+} 
+.ease-in{
+	transition-timing-function: ease-in; 
+} 
+.ease-out{
+	transition-timing-function: ease-out; 
+} 
+.else-ib-out{
+	transition-timing-function: ease-in-out; 
+} 

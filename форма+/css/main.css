@@ -1,0 +1,23 @@
+body{
+	background-color: #B6D554FF;
+}
+.form{
+	background-color: #fff;
+	text-align: center;
+	margin: auto;
+	padding: 40px;
+	width: 300px;
+	margin-top: 50%;
+	margin-bottom: 50%;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+input,button{
+	margin-top: 15px;
+}
+button{
+	width: 100%;
+	background-color: #4C6EB2FF;
+	border: none;
+	height: 25px;
+}

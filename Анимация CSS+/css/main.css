@@ -1,0 +1,30 @@
+@keyframes around {
+  0%  { left: 0; top: 0; }
+  25% { left: 240px; top: 0; }
+  50% { left: 240px; top: 140px; }
+  75% { left: 0; top: 140px; }
+  100% { left: 0; top: 0; }
+}
+
+@keyframes bouncing{
+	0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5); }
+	100% { bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1); }
+}
+
+.ar{
+	display: inline-block;
+	animation: around 4s linear alternate;
+	position: relative;
+	margin-top: 50px; 
+}
+.btn{
+  animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+  background: turquoise;
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 45%;
+  position: relative;
+  text-align: center;
+  width: 100px;
+}

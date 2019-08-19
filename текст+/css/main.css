@@ -1,0 +1,17 @@
+body{
+	background-color: #477;
+}
+div{
+	width: 400px;
+	height: ;
+}
+.text{
+	background-color: #fff;
+	width: 300px;
+	padding: 20px;
+	border-radius: 5px;
+	margin: auto;	
+	top: 300px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+	position: relative;
+}
